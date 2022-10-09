@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  /* --primary-color: #f4db4c; */
+  --primary-color: #fde047;
+  --border-color: #111827;
+  --button1-color: #bae6fd;
+  --button2-color: #fef9c3;
+  --width-break: 600px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+
+.nav-heading {
+  background-color: var(--primary-color);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2.5rem;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+h3 {
+  text-align: center;
+}
+
+#header-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  font-size: large;
+  border: dashed var(--border-color);
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.btn {
+  text-align: center;
+}
+
+#btn-translate {
+  background-color: var(--button1-color);
+  margin-right: 1rem;
+  display: inline;
+  border: 2px solid var(--border-color);
+  cursor: pointer;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif;
+  width: 100px;
+  min-height: 6vh;
+  border-radius: 1rem;
+}
+
+#btn-clear {
+  background-color: var(--button2-color);
+  display: inline;
+  border: 2px solid var(--border-color);
+  cursor: pointer;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif;
+  width: 100px;
+  min-height: 6vh;
+  border-radius: 1rem;
+}
+
+#output {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 20vh;
+  overflow: scroll;
+  border: dashed var(--border-color);
+  padding: 1rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  font-size: large;
+  border-top-right-radius: 80px 80px;
+  border-top-left-radius: 80px 80px;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
+
+#footer-funfact {
+  font-weight: bold;
+}
+
+#footer-details {
+  margin-bottom: 1rem;
+}
+
+.footer-list {
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+}
